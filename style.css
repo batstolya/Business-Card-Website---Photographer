@@ -164,3 +164,16 @@ footer p {
 .h-6 {
     grid-row: span 6;
 }
+
+@media (max-width:1000px) {
+    .grid {
+        grid-template-areas: "header header header header" "main main main main " "sidebar sidebar sidebar sidebar" "footer footer footer footer";
+    }
+}
+
+@media (max-width:600px) {
+    .container-gallery {
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+    }
+}
