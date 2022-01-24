@@ -6,6 +6,18 @@
     --secondary-font: "Dancing Script", cursive;
 }
 
+body {
+    background: var(--light);
+    font-family: var(--primary-font);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 35%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header" "main main main sidebar" "footer footer footer  footer";
+}
+
 
 /* header */
 
