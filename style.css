@@ -113,3 +113,54 @@ aside img {
     object-fit: cover;
     border-radius: 50%;
 }
+
+
+/* footer */
+
+footer {
+    margin: 10px;
+    grid-area: footer;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer h2 {
+    margin: 0;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+footer h4 {
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.h-1 {
+    grid-row: span 1;
+}
+
+.h-2 {
+    grid-row: span 2;
+}
+
+.h-3 {
+    grid-row: span 3;
+}
+
+.h-4 {
+    grid-row: span 4;
+}
+
+.h-5 {
+    grid-row: span 5;
+}
+
+.h-6 {
+    grid-row: span 6;
+}
