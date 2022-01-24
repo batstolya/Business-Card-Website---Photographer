@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #f2c744;
+    --light: #f4f6f9;
+    --dark: #000;
+    --primary-font: "Shadows Into Light", cursive;
+    --secondary-font: "Dancing Script", cursive;
+}
+
+
+/* header */
+
+header {
+    margin: 10px;
+    grid-area: header;
+    justify-items: stretch;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+header h2 {
+    font-family: var(--secondary-font);
+    font-size: 35px;
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+}
